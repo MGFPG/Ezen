@@ -1,0 +1,15 @@
+create table machine(
+num int(3) unsigned zerofill NOT NULL AUTO_INCREMENT primary key,
+machineid varchar(45),
+machinename varchar(45) NOT NULL,
+etc varchar(100),
+regdate datetime default CURRENT_TIMESTAMP,
+manager varchar(10) NOT NULL,
+machineimg varchar(45)
+);
+
+
+추가
+
+
+https://www.energydaily.co.kr/news/articleView.html?idxno=107792

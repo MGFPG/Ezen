@@ -1,0 +1,29 @@
+.add-scroll {
+  border-collapse: collapse;
+  width: 100%;
+  
+  thead {
+    float: left;
+    width: 100%;
+    tr {
+      width: 100%;
+      th {
+        width: 150px !important;
+     }
+   }
+ }
+  tbody {
+    overflow-y: auto;
+    overflow-x: hidden;
+    float: left;
+    width: 100%;
+    max-height: 500px;
+    tr {
+      display: table;
+      width: 100%;
+      td {
+        width: 100px;
+     }
+   }
+ }
+}
